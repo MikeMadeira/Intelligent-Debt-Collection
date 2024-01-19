@@ -92,6 +92,9 @@ def generate_number_of_loans(annual_income):
     
     return np.random.choice([1, 2, 3, 4, 5], p=probabilities)
 
+
+def generate_communication_data(clients_ids):
+
 if __name__ == "__main__":
     num_records_to_generate = 1000
     csv_path = '/home/mikemadeira_aux/Documents/Projects/Intelligent-Debt-Collection/docker/bank_debt_data/' 
